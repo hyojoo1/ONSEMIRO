@@ -1,0 +1,40 @@
+html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 100%;
+        margin: 80px auto;
+    }
+    .slick-slide {
+      margin: 0px 10px;
+    }
+		.gallery{
+			width: 100%;
+			text-align:center;
+			border-radius:30px;
+      cursor: pointer;
+		}
+		.gallery img{
+			width: 98%;
+			display:inline-block;
+		}
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+    .slick-slide {
+      transition: all ease-in-out .8s;
+      opacity: 1;
+    }
+    .slick-active {
+      opacity: 1;
+    }
+    .slick-current {
+      opacity: 1;
+    }
